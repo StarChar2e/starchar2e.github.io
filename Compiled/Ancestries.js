@@ -6,6 +6,6 @@ import {
 	galaxyGuideAncestries
 } from "../Books/GalaxyGuide/Ancestries.js";
 
-let compiledAncestries = {...playerCoreAncestries, ...galaxyGuideAncestries};
+let mergedAncestries =  new Map([...playerCoreAncestries, ...galaxyGuideAncestries]);
 
-export let ancestries = new Map([...compiledAncestries.entries()].sort());
+export let ancestries = new Map([...mergedAncestries.entries()].sort());
