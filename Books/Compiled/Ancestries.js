@@ -10,4 +10,4 @@ let mergedAncestries =  new Map([
 export let ancestries = new Map([...mergedAncestries.entries()].sort());
 */
 
-let ancestries = "hello";
+export let ancestries = "hello";
