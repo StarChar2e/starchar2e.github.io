@@ -1,11 +1,11 @@
-//import {kasatha} from "./Kasatha.js";
+import {kasatha} from "./Kasatha.js";
 
 export let playerCoreAncestries = new Map();
 
 playerCoreAncestries.set("Android", "Androids first emerged as synthetic beings crafted by many technologically advanced civilizations throughout the galaxy. The first androids were created by humanoid peoples in their own images, but after the technology that animated the living constructs spread, androids began displaying a fantastic diversity of forms. Androids in the Pact Worlds were originally designed as servants, but today androids and other robotic beings stand as equals to organic ancestries under the Pact. Some androids have formed their own independent communities, while most integrate seamlessly into Pact Worlds societies. Unlike many other technological constructs, androids are more than intricate synthetic organs and complex programming, and each possesses their own soul.");
 playerCoreAncestries.set("Barathu", "Barathus are floating beings with bizarre body shapes who evolved on the gas giant Bretheda. Barathus rewrite their own genetic code instinctively and at will, shaping their bodies into a stunning array of unique forms.");
 playerCoreAncestries.set("Human", "Humans are known for their ability to adapt and thrive in the most challenging situations, including the mysterious loss of their home world, Golarion. Ambitious, creative, and endlessly curious, humans maintain a robust presence in the galaxy, often taking on positions of leadership or acting at the forefront of exploration. Humans can be found almost anywhere, doing almost anything.");
-//playerCoreAncestries.set("Kasatha", kasatha);
+playerCoreAncestries.set("Kasatha", kasatha);
 playerCoreAncestries.set("Lashunta","Long ago, lashuntas evolved psychic abilities and a unique dimorphism that helped them survive on their home world of Castrovel. In modern times, lashuntas manipulate their own genetics at puberty, allowing each individual to develop into an enhanced scholar or warrior, though not every lashunta commits to these traditional choices.");
 playerCoreAncestries.set("Shirren", "The insectile shirrens split from the destructive Swarm, forsaking the ruthless hive mind to pursue personal freedom and end the cycle of interstellar violence. Shirrens are a species of telepaths devoted to their own individualism, building chosen communities, and living in harmony with other peoples.");
 playerCoreAncestries.set("Skittermander", "Skittermanders are energetic, six-armed humanoids with brightly colored fur. Skittermanders accomplish tasks with chaotic enthusiasm and typically enjoy teamwork, defying even their would-be conquerors through collaboration.");
