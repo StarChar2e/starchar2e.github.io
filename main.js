@@ -1,5 +1,5 @@
 import {
 	ancestries
-} from "./Compiled/Ancestries.js";
+} from "./Books/Compiled/Ancestries.js";
 
 console.log(ancestries);
