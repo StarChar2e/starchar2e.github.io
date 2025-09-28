@@ -1,5 +1,5 @@
-import {playerCoreAncestries} from "../Books/PlayerCore/Ancestries/Ancestries.js";
-import {galaxyGuideAncestries} from "../Books/GalaxyGuide/Ancestries/_Ancestries.js";
+import {playerCoreAncestries} from "../PlayerCore/Ancestries/Ancestries.js";
+import {galaxyGuideAncestries} from "../GalaxyGuide/Ancestries/_Ancestries.js";
 
 let mergedAncestries =  new Map([
 	...playerCoreAncestries, 
