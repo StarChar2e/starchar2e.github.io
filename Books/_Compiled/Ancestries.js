@@ -1,5 +1,4 @@
-/*
-import {playerCoreAncestries} from "../PlayerCore/Ancestries/Ancestries.js";
+import {playerCoreAncestries} from "../PlayerCore/Ancestries/_Ancestries.js";
 import {galaxyGuideAncestries} from "../GalaxyGuide/Ancestries/_Ancestries.js";
 
 let mergedAncestries =  new Map([
@@ -8,6 +7,3 @@ let mergedAncestries =  new Map([
 ]);
 
 export let ancestries = new Map([...mergedAncestries.entries()].sort());
-*/
-
-export let ancestries = "hello";
