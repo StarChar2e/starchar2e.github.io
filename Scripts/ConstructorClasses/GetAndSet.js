@@ -1,0 +1,38 @@
+export class GetAndSet {
+	listenerForSetters(){};
+	
+	getValueOf(name){
+		key = "_" + name;
+		let value = "";
+
+		if(key in this){
+			value = this[key];
+		}
+		else{
+			alert("Trying to get a value that does not have a key. Key being attempted is " + name);
+		}
+
+		return value;
+	}
+	
+	setValueOf(name, value) {
+		key = "_" + name;
+		
+		if(key in this){
+			this[key] = value;
+			listenerForSetters();
+		}
+		else{
+			alert("Trying to set a value that does not have a key. Key being attempted is " + name);
+		}
+	}
+	
+	setListener(/*function*/listener){
+		if(listener instanceof Function){
+			this.listenerForSetters = listener;
+		}
+		else{
+			alert("Trying to set a listener that is not a function");
+		}
+	}
+}
