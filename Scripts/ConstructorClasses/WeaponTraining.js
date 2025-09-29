@@ -1,4 +1,4 @@
-import {Training} from "/Constants.js";
+import {Training} from "../Constants.js";
 
 export class WeaponTraining {
 	constructor(training) {

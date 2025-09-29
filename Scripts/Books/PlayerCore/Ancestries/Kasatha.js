@@ -1,4 +1,4 @@
-import {Ancestry} from "/ConstructorClasses/Ancestry.js";
+import {Ancestry} from "/Scripts/ConstructorClasses/Ancestry.js";
 
 //constructor(name, traits, hitPoints, size, baseSpeed, boosts, flaw, languages, vision, special, description)
 
