@@ -27,17 +27,17 @@ export class Ancestry {
 		this.#description = obj.description || "";
 	}
 	
-	static get(name) {
+	getValueOf(name){
 		let value = "";
-		
+
 		if(name in this){
 			value = this[name];
 		}
-		
-		return value;
-	};
 
-	static set(name, value) {
+		return value;
+	}
+	
+	setValueOf(name, value) {
 		if(name in this){
 			this[name] = value;
 		}
