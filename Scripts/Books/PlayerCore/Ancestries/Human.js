@@ -11,7 +11,7 @@ human.setValueOf("size", "Medium");
 human.setValueOf("baseSpeed", 25);
 human.setValueOf("boosts", ["Free", "Free"]);
 human.setValueOf("flaw", []);
-human.setValueOf("languages", "Common");
+human.setValueOf("languages", ["Common"]);
 human.setValueOf("vision", "Normal");
 human.setValueOf("special", {});
 human.setValueOf("description",

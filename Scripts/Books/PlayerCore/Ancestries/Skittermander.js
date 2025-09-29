@@ -10,7 +10,7 @@ skittermander.setValueOf("hitPoints", 6);
 skittermander.setValueOf("size", "Small");
 skittermander.setValueOf("baseSpeed", 25);
 skittermander.setValueOf("boosts", ["Dex", "Cha", "Free"]);
-skittermander.setValueOf("flaw", "Wis");
+skittermander.setValueOf("flaw", ["Wis"]);
 skittermander.setValueOf("languages", ["Common", "Vesk"]);
 skittermander.setValueOf("vision", "Low-light");
 skittermander.setValueOf("special", {
@@ -19,3 +19,4 @@ skittermander.setValueOf("special", {
 skittermander.setValueOf("description",
   "Skittermanders are energetic, six-armed humanoids with brightly colored fur. Skittermanders accomplish tasks with chaotic enthusiasm and typically enjoy teamwork, defying even their would-be conquerors through collaboration."
 );
+//I added this comment just so i'd be able to send something, I had alreagy pushed it. I love you :)
