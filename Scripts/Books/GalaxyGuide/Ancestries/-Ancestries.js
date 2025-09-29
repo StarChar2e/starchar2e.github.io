@@ -1,8 +1,10 @@
 export let galaxyGuideAncestries = new Map();
 
+/*
 galaxyGuideAncestries.set("Astrazoan", "Astrazoans have no clear origins or known home world. Their malleable bodies hide a peculiar natural shape they rarely show to anyone. But by changing their bodies to adapt to new situations, astrazoans have found as many homes as they have identities among the varied cultures of the galaxy.");
 galaxyGuideAncestries.set("Contemplative", "Shaped by countless generations' pursuit of mental self-perfection, contemplatives have huge brains equally suited to math and magic. Their natural telekinesis propels them through the air as their measured curiosity drives them to discovery and innovation.");
 galaxyGuideAncestries.set("Dragonkin", "Draconic in appearance and fiercely loyal, dragonkin are deeply empathic beings capable of forming a nearly unbreakable spiritual bond with one other creature, which manifests in telepathic communication and tactical synergy.");
 galaxyGuideAncestries.set("Kalo", "Kalos hail from a watery moon orbiting Bretheda. These aquatic humanoids have art and creativity at the center of their culture, and they employ fluid fighting styles in combat.");
 galaxyGuideAncestries.set("Sarcesian", "Sarcesians are natural spacefarers who glide through the void of space on butterfly wings of energy and light.");
 galaxyGuideAncestries.set("Vlaka", "Vlakas are wolflike nomads whose thick fur coats help them survive in the frigid cold, as it is on their home world of Lajok. They have an incredible sense of smell and are often born deaf, blind, or deafblind.");
+*/
