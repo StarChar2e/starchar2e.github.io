@@ -6,7 +6,7 @@ export class GetAndSet {
 	}
 	
 	getValueOf(name){
-		key = "_" + name;
+		let key = "_" + name;
 		let value = "";
 
 		if(key in this){
@@ -20,7 +20,7 @@ export class GetAndSet {
 	}
 	
 	setValueOf(name, value) {
-		key = "_" + name;
+		let key = "_" + name;
 		
 		if(key in this){
 			this[key] = value;
