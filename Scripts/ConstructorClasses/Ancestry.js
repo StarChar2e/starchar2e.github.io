@@ -30,7 +30,7 @@ export class Ancestry extends GetAndSet {
 		this._optionalBoost = obj.optionalBoost || [];
 		this._languages = obj.languages || ["Common"];
 		this._vision = obj.vision || "Normal"
-		this._special = obj.special || [{}];
+		this._special = obj.special || {};
 		this._description = obj.description || "";
 	}
 }
