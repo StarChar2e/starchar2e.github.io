@@ -10,7 +10,7 @@ skittermander.setValueOf("hitPoints", 6);
 skittermander.setValueOf("size", "Small");
 skittermander.setValueOf("baseSpeed", 25);
 skittermander.setValueOf("boosts", ["Dex", "Cha", "Free"]);
-skittermander.setValueOf("flaw", "Wis");
+skittermander.setValueOf("flaw", ["Wis"]);
 skittermander.setValueOf("languages", ["Common", "Vesk"]);
 skittermander.setValueOf("vision", "Low-light");
 skittermander.setValueOf("special", {
