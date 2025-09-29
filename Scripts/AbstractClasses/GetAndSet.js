@@ -1,4 +1,4 @@
-export class GetAndSet {
+export /*abstract*/ class GetAndSet {
 	listenerForSetters;
 	
 	constructor(){
