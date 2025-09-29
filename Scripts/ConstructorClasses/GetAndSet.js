@@ -2,7 +2,7 @@ export class GetAndSet {
 	listenerForSetters;
 	
 	constructor(){
-		listenerForSetters = function(){};
+		this.listenerForSetters = function(){};
 	}
 	
 	getValueOf(name){
@@ -24,7 +24,7 @@ export class GetAndSet {
 		
 		if(key in this){
 			this[key] = value;
-			listenerForSetters();
+			this.listenerForSetters();
 		}
 		else{
 			alert("Trying to set a value that does not have a key. Key being attempted is " + name);
