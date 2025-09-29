@@ -1,4 +1,4 @@
-export const Training = Object.freeze({
+export const profiency = Object.freeze({
 	UNTRAINED: "Untrained",
 	TRAINED: "Trained",
 	EXPERT: "Expert",
