@@ -18,4 +18,4 @@ export let kasatha = new Ancestry(
 	"Kasathas are humanoids with gray skin, four arms, and pure black eyes. They have an elongated skull that extends behind their neck, further accentuating their tall frames. After evolving to survive migrations on a massive world, many kasathas have wiry bodies with thick musculature that makes them strong despite their lanky appearance."
 );
 
-kasatha.set("#name", "Kasatha");
+kasatha.setValueOf("#name", "Kasatha");
