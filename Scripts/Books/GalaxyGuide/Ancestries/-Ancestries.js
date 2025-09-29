@@ -1,4 +1,8 @@
+import {astrazoan} from "./Astrazoan.js";
+
 export let galaxyGuideAncestries = new Map();
+
+galaxyGuideAncestries.set("Astrazoan", astrazoan);
 
 /*
 galaxyGuideAncestries.set("Astrazoan", "Astrazoans have no clear origins or known home world. Their malleable bodies hide a peculiar natural shape they rarely show to anyone. But by changing their bodies to adapt to new situations, astrazoans have found as many homes as they have identities among the varied cultures of the galaxy.");

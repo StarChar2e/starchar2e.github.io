@@ -1,10 +1,14 @@
 import {kasatha} from "./Kasatha.js";
 import {android} from "./Android.js";
+import {human} from "./Human.js";
+import {skittermander} from "./Skittermander.js";
 
 export let playerCoreAncestries = new Map();
 
 playerCoreAncestries.set("Android", android);
 playerCoreAncestries.set("Kasatha", kasatha);
+playerCoreAncestries.set("Human", human);
+playerCoreAncestries.set("Skittermander", skittermander)
 
 /*
 playerCoreAncestries.set("Barathu", "Barathus are floating beings with bizarre body shapes who evolved on the gas giant Bretheda. Barathus rewrite their own genetic code instinctively and at will, shaping their bodies into a stunning array of unique forms.");
