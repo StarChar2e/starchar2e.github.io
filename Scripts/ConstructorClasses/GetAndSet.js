@@ -13,7 +13,7 @@ export class GetAndSet {
 			value = this[key];
 		}
 		else{
-			alert("Trying to get a value that does not have a key. Key being attempted is " + name);
+			alert("Trying to get a value that does not have a key. Key being attempted is: " + name);
 		}
 
 		return value;
@@ -27,11 +27,11 @@ export class GetAndSet {
 			this.listenerForSetters();
 		}
 		else{
-			alert("Trying to set a value that does not have a key. Key being attempted is " + name);
+			alert("Trying to set a value that does not have a key. Key being attempted is: " + name);
 		}
 	}
 	
-	setListener(/*function*/listener){
+	setListener(/*function*/ listener){
 		if(listener instanceof Function){
 			this.listenerForSetters = listener;
 		}
