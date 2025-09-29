@@ -1,6 +1,6 @@
 import {Ancestry} from "/Scripts/ConstructorClasses/Ancestry.js";
 
-export let android = new Ancestry(ancestryInformation);
+export let android = new Ancestry();
 
 android.setValueOf("name", "Android");
 android.setValueOf("traits", ["Humanoid", "Android"]);
