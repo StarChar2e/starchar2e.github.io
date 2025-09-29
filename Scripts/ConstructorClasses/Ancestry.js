@@ -17,6 +17,8 @@ export class Ancestry extends GetAndSet {
 	
 	constructor(obj) {
 		super();
+		obj = obj || {};
+		
 		this._name = obj.name || "";
 		this._traits = obj.traits || [];
 		this._hitPoints = obj.hitPoints || 8;
