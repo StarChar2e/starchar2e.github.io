@@ -2,6 +2,10 @@ export class GetAndSet {
 	listenerForSetters;
 	
 	constructor(){
+		if (this.constructor === GetAndSet) {
+	    	throw new Error("Cannot instantiate abstract class");
+	    }
+		
 		this.listenerForSetters = function(){};
 	}
 	

@@ -11,7 +11,7 @@ export class Class {
 		this.additonalSkills
 		this.weaponTraining
 		this.armorTraining
-		this.classDc = 
-		this.featuresByLevel = featuresByLevel || new Map();
+		this.classDc
+		this.featuresByLevel = new Map();
 	}
 }

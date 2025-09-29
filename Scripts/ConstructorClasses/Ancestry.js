@@ -1,4 +1,4 @@
-import {GetAndSet} from "./GetAndSet.js";
+import {GetAndSet} from "../AbstractClasses/GetAndSet.js";
 
 export class Ancestry extends GetAndSet {
 	_name;
