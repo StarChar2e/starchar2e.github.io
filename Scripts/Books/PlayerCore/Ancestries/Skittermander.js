@@ -19,3 +19,4 @@ skittermander.setValueOf("special", {
 skittermander.setValueOf("description",
   "Skittermanders are energetic, six-armed humanoids with brightly colored fur. Skittermanders accomplish tasks with chaotic enthusiasm and typically enjoy teamwork, defying even their would-be conquerors through collaboration."
 );
+//I added this comment just so i'd be able to send something, I had alreagy pushed it. I love you :)
