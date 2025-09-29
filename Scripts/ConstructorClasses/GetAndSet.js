@@ -1,5 +1,9 @@
 export class GetAndSet {
-	listenerForSetters(){};
+	listenerForSetters;
+	
+	constructor(){
+		listenerForSetters = function(){};
+	}
 	
 	getValueOf(name){
 		key = "_" + name;
